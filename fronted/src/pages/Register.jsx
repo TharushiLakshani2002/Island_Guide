@@ -2,38 +2,39 @@ import React from "react";
 import '../styles/register.css';
 import { useState, useEffect  } from "react";
 import{useNavigate} from 'react-router-dom';
-import axios from "axios";
+//import axios from "axios";
 import logo from '../images/logo.png';
 
 function Register() {
-    const [username, setUsername] = useState("");
-    const[password, setPassword] = useState("");
-    const[cpassword, setCpassword] = useState("");
+    // const [username, setUsername] = useState("");
+    // const[password, setPassword] = useState("");
+    // const[cpassword, setCpassword] = useState("");
 
-    const submit= async (e)=>{
-        e.preventDefault();
+    // const submit= async (e)=>{
+    //     e.preventDefault();
 
-        try{
-            const response= await axios.post("http://localhost:5000/register", {
-                nameOrEmail: username,
-                passwordHash: password,
-                cpasswordHash: cpassword,
-            });
-            console.log(response.data);
-                if(response.data.success){
-                    alert("Registration successful!");
-                    navigate('/login');
-                }
-            } catch(error){
-                console.error("There was an error!", error);
-                alert("Registration failed. Please try again.");
-            }
+    //      try{
+    //         const response= await axios.post("http://localhost:5000/register", {
+    //           nameOrEmail: username,
+    //           passwordHash: password,
+    //           cpasswordHash: cpassword,
+    //         });
+    //     //    console.log(response.data);
+    //     //         if(response.data.success){
+    //     //             alert("Registration successful!");
+    //     //             navigate('/login');
+    //     //         }
+    //     //     } catch(error){
+    //     //         console.error("There was an error!", error);
+    //     //         alert("Registration failed. Please try again.");
+    //     //     }
             
-        }
+    //     //}
     return(
         <div className="register-main-container">
             <div className="row">
                 <div className="col-lg7" id="register-left">
+                    
                     <img src={logo} alt="" />
                     </div>
                     <div className="main-text">
@@ -58,7 +59,7 @@ function Register() {
                   id="username"
                   aria-describedby="emailHelp"
                   placeholder="Enter Username or Email"
-                  onChange={(e)=>{setUsername(e.target.value)}}
+                  //onChange={(e)=>{setUsername(e.target.value)}}
                 />
               </div>
               <div className="form-group">
@@ -68,7 +69,7 @@ function Register() {
                   className="form-control"
                   id="password"
                   placeholder="Password"
-                  onChange={(e)=>{setPassword(e.target.value)}}
+                 // onChange={(e)=>{setPassword(e.target.value)}}
                 />
               </div>
               <div className="form-group">
@@ -78,7 +79,7 @@ function Register() {
                   className="form-control"
                   id="cpassword"
                   placeholder="Confirm Password"
-                  onChange={(e)=>{setCpassword(e.target.value)}}
+                 // onChange={(e)=>{setCpassword(e.target.value)}}
                 />
               </div>
               <div className="form-group form-check">
@@ -96,7 +97,7 @@ function Register() {
                   Already have an account? <a href="">Sign in</a>
                 </p>
               </div>
-              <button type="submit" className="btn btn-primary" onClick={submit}>
+              <button type="submit" className="btn btn-primary" >
                 Submit
               </button>
             </form>
