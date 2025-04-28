@@ -2,7 +2,7 @@
 
 .navbar-container .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -11,7 +11,7 @@
     background-color: rgb(0,0,0,0.8);
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 
@@ -37,25 +37,33 @@
     color: rgb(212, 210, 210);   
 }
 
-#links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px; /* spacing between the links */
-}
-
-#links a {
-    color: white;
+#links a{
+    padding: 3%;
+    font-size: 1.2rem;
+    font-style: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: color 0.3s ease;
+    position: relative;
+    color: rgb(255, 253, 253);
 }
 
-#links a:hover {
-    color: #1da1f2; /* Light blue hover effect */
+#links a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    height: 3px;
+    width: 0%;
+    background-color:rgb(7, 218, 255);
+    transition: all 0.4s ease;  
+}
+
+#links a:hover{
+    color: rgb(7, 218, 255);
+    background-color: rgb(26, 26, 26);
+}
+
+#links a:hover:before{
+    width: 100%;
 }
 
 .navbar-container .row2{
@@ -63,7 +71,7 @@
 }
 
 .row2 img{
-    width: 65%;
+    width: 35%;
 }
 
 .row2 .user-icon a{
