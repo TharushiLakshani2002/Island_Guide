@@ -23,7 +23,7 @@ function Navbar() {
         <div className="row row1">
             <div className="col-9">
                 <a href="#" className='icon'><EmailIcon/></a>
-                <a href="#">islandguide@gmail.com</a>
+                <a href="#">islandguide123@gmail.com</a>
             </div>
             <div className="col-3">
                 <a href="#"><TwitterIcon/></a>
@@ -41,7 +41,7 @@ function Navbar() {
                 <a href="#"><Link to='/'>Home</Link></a>
                 <a href="#"><Link to='/plan'>Plan Your Trip</Link></a>
                 <a href="#"><Link to='/about'>About</Link></a>
-                <a href="#">Contact Us</a>
+                <a href="#"><Link to='/contact'>Contact Us</Link></a>
             </div>
             <div className="col-1" id='user-icon'>
         <div className={`dropdown ${dropdownOpen ? 'show' : ''}`}>
