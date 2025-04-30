@@ -56,9 +56,7 @@ Start your journey today and let the island breeze carry you into a paradise of 
                         <img src={pic2}/>
                         <div className="layer">
                               <h3>Things To Do</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, </p>
+                              <p>Discover top attractions, hidden gems, and travel tips with My Island Guide – your ultimate companion to exploring the island. </p>
                               <a href="#" target="_blank"><OpenInNewIcon/></a>
                         </div>
                         
