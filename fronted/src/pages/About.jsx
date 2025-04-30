@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../images/slider-img1.jpeg';
+import img1 from '../images/slider-img1.jpg';
 import img2 from '../images/slider-img2.jpg';
-import img3 from '../images/slider-img3.jpeg';
+import img3 from '../images/slider-img3.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from '../components/Navbar'
