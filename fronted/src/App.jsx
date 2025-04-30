@@ -37,7 +37,7 @@ function App() {
           <Route path="/plan" element={<Plan/>} />
           <Route path="/place" element={<Place/>}/>
           <Route path="/attractions" element={<Attractions/>}></Route>
-          {/* You can add more protected routes here */}
+
         </Routes>
       </Router>
     </div>
