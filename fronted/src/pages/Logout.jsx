@@ -11,6 +11,6 @@ function Logout() {
         navigate("/login"); // Redirect to login page after logout
     }, [navigate]);
 
-    return null; // No UI to render for logout
+    return null; 
 }
 export default Logout;
