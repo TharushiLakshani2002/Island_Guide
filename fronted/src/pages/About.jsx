@@ -85,7 +85,7 @@ function About() {
 </div>
 <div className="col-7 paragraph">
   <p className='about-content'>Welcome to Island Explorer, your ultimate companion for discovering the hidden gems of our beautiful islands. Our app is designed to help travelers find breathtaking beaches, adventurous hiking trails, historic landmarks, and vibrant local cultures. Whether you’re planning a relaxing getaway or an action-packed adventure, Island Explorer provides detailed guides, insider tips, and personalized recommendations to make your journey unforgettable. We are passionate about travel and committed to making your island experience as smooth and memorable as possible.
-	 Let us guide you to the heart of paradise!.</p>
+	 Let us guide you to the heart of paradise!....</p>
 </div>
 </div>
 <Footer/>
