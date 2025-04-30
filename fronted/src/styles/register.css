@@ -12,7 +12,7 @@ body {
 }
 
 .register-main-container {
-  background-image: url('../images/reg-bg-img.png');
+  background-image: url('../images/reg-bg-img.jpg');
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
@@ -62,8 +62,9 @@ body {
     background-color: rgba(10, 59, 127, 0.5);
     width: 100%;
     max-width: 500px;
-    margin-right: 350px;
-    margin-left: -20px;
+    margin-right: 400px;
+    margin-left: 140px;
+    margin-top: 90px;
    }
 .form-group {
   padding: 10px 0;

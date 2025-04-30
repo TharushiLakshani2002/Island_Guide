@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";  
 import '../styles/accomadations.css';
-import starIcon from '@mui/icons-material/Star';
+import StarIcon from '@mui/icons-material/Star';
 
 function Accomadations() {
     return (
@@ -13,7 +13,7 @@ function Accomadations() {
                 <div className="row">
                     <div className="col-3">
                         <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://images.rosewoodhotels.com/is/image/rwhg/heroshot-punta-bonita-pool-and-beach-1" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
                             <p>Luxury Resorts</p>
@@ -24,10 +24,10 @@ function Accomadations() {
                 </div>
                 <div className="col-3">
                 <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.VhdjImDvLPAl_Np3zzZf6AHaEo?rs=1&pid=ImgDetMain" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
-                            <p>Eco-Lodges & Nature Resorts</p>
+                            <p>Lodges & Nature Resorts</p>
                         </div>
                 </div>
                 </div>
@@ -35,7 +35,7 @@ function Accomadations() {
                 </div>
                 <div className="col-3">
                 <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.BZW-iaNBcPOR9TkSFZPZnwHaEK?rs=1&pid=ImgDetMain" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
                             <p>Budget Stays</p>
@@ -47,7 +47,7 @@ function Accomadations() {
             <div className="row">
                 <div className="col-3">
                 <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.LNBcp_C6a5KIen1hnUuUaQHaEU?rs=1&pid=ImgDetMain" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
                             <p>Beachside Villas & Bungalows</p>
@@ -57,7 +57,7 @@ function Accomadations() {
                 </div>
                 <div className="col-3">
                 <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://th.bing.com/th/id/R.e000b86af535ca6cd49b54a913fe7d90?rik=kZHrvBC2vvypWg&pid=ImgRaw&r=0" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
                             <p>Family-Friendly Resorts</p>
@@ -68,7 +68,7 @@ function Accomadations() {
 
                 <div className="col-3">
                 <div className="image-container">
-                        <img src="https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5bfe53d5865bafeffd841e7e_98%20acres%20resort%20and%20spa-min.jpg" alt="" className="image"/>                    
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.f0ZWRQC2ikjLQOKsu4k-9AHaE7?rs=1&pid=ImgDetMain" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
                             <p>Treehouse Stays</p>
@@ -85,24 +85,26 @@ function Accomadations() {
                     <h2>Island Guide-Accomadation Guide</h2>
                     <hr/>
                     <h6>5 Star
-                        <starIcon />
-                        <starIcon />    
-                        <starIcon />
-                        <starIcon />
-                        <starIcon />
+                    <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
                     </h6>
                     <p>Superior standard and an extensive range of first-class guest services</p><br />
                     <h6>4 Stars    
-                        <starIcon />
-                        <starIcon />
-                        <starIcon />
-                        <starIcon />
+                  
+                        <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
                     </h6>
                     <p>Exceptional comfort and premium amenities designed for an unforgettable stay.</p><br />
                     <h6>3 Stars    
-                        <starIcon />
-                        <starIcon />
-                        <starIcon />
+                   
+                        <StarIcon />
+                        <StarIcon />
+                        <StarIcon />
                     </h6>
                     <p>Elegantly designed stays offering spotless comfort and high-quality furnishings for a relaxing experience.</p><br />
                     <h6>Less than 3 Stars</h6>

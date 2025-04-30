@@ -1,0 +1,118 @@
+.attractions-container .row{
+    margin-left: 0;
+}
+
+.attractions-container1{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i0.wp.com/www.consciousjourneys.com/wp-content/uploads/2016/03/esala-6.jpg?fit=1400%2C778&ssl=1');
+    
+}
+
+.image-row h2{
+    text-align: center;
+    
+}
+
+.image-row-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 255, 255, 0.6);
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.search-content input{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search-content input:focus{
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.search-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.search-content button{
+    padding: 8px 30px ;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 205, 7);
+    font-size: 1rem;   
+}
+
+.search-content button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 193, 7);  
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .paginationBttns {
+    width: 70%;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2bc6ff;
+    color: #2bc6ff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2bc6ff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2bc6ff;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+   
+  }
+.paging{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  .hidden {
+    display: none;
+}

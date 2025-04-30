@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../styles/contact.css';
 import logo from '../images/logo.png';
+import Navbar from "../components/Navbar";
 
 const Contact= () => {
   // Form state to store the input values
@@ -27,12 +28,15 @@ const Contact= () => {
   };
 
   return (
-    <div className="contact-main-container">
+    <div className="contact-container">
+          <div className="row contact-container1">
+          <div className="row contact-container1 nav">
+        <Navbar/>
+        </div>
+        
+        </div>
             <div className="row">
-                <div className="col-lg7" id="contact-left">
-                    
-                        <img src={logo} alt="" />
-                </div>
+              
                 <div className="main-text">
                     <h1>
                         <span className="main">Contact Us </span>

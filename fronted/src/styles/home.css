@@ -1,204 +1,146 @@
+
 .home-container .row{
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-   
+  margin-left: 0;
 }
 
 .home-container1{
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-
-    background-image: url('../images/home-banner.jpeg');   
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/home-banner.jpg');   
 }
 
 .home-row2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left; /* better for paragraph */
-    padding: 5%;
-    background-color: rgb(109, 10, 35);
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/home-banner.jpeg');
-    background-size: cover;
-    margin-left: 30px;
-    gap: 50px; /* add some space between paragraph and search */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;    
 }
 
-.home-row2 .description {
-    flex: 1; /* take half width */
-    margin: 5% 0;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 5%;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 1.4em;
-    color: #294e4e;
+.home-row2 .description{
+  margin:5% 0;
+  background-color: rgb(255,255,255,0.6);
+  padding: 5% 5%;
+  border-radius: 10px;
 }
 
-.search-block {
-    flex: 0.cm; /* take half width */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    padding: 5%;
-    border-radius: 10px;
+.search-block p{
+  font-size: 20px;
+  color: white;
 }
 
-.search-block p {
-    font-size: 30px;
-    color: white; /* text color in search block */
-    margin-bottom: 20px;
-    font-weight: bold;
-    margin-left: 1%;
-    font-weight: bold;
+.search-block input{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-block input:focus{
+  outline: none;
+  background-color: rgb(255,255,255,0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.search-block .search-btn{
+  padding: 8px 30px ;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(9, 130, 149);
+  font-size: 1.2rem;   
+}
+
+.search-block .search-btn:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(7, 218, 255,0.6);
+}
+
+.search-block .search-btn:focus{
+  border: none;
+}
+
+.home-container2{
+  padding: 5%;
+  width: 100%;
+  background-color: rgb(228, 232, 232);
+}
+
+.home-container2 .main-para{
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.features{
+  padding: 5%;
   
 }
 
-.search-block input {
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    
+.home-container2 .card{
+  border: none;
 }
 
-.search-block input:focus {
-    outline: none;
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.home-container2 .card img{
+  width: 100%;
+  transition: transform 0.5s;
+  
 }
 
-.search-block .search-btn {
-    margin-top: 20px;
-    padding: 8px 30px;
-    border-radius: 10px;
-    font-weight: bold;
-    border: none;
-    background-color: rgb(7, 218, 255);
-    font-size: 1.2rem;
-    cursor: pointer;
+.home-text{
+  background-color: white;
 }
 
-.search-block .search-btn:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(7, 218, 255, 0.6);
+.home-text h2{
+  margin: 10px;
+  padding: 20px;
+}
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),  rgb(6, 56, 56));
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.4s ease-in-out;
+  border-radius: 0 0 10px 10px;
 }
 
-.search-block .search-btn:focus {
-    border: none;
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: white;
+
 }
 
-/* Features Section */
-.home-container2 {
-    background-color: #f9f9f9;
-    padding: 5%;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .home-text h2 {
-    font-size: 3rem;
-    color: #050537;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  
-  .main-para {
-    font-size: 1.8rem;
-    color: #555;
-    width: 70%;
-    margin: 0 auto 40px;
-    margin-top: 50px;
-    font-weight: bold;
-  }
-  
-  /* Feature Cards */
-  .features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-  }
-  
-  .card {
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.4s;
-    position: relative;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px) scale(1.03);
-  }
-  
-  .card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-  }
-  
-  .layer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 0;
-    background: linear-gradient(to top, rgba(5, 5, 55, 0.9), transparent);
-    transition: height 0.4s;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    padding: 20px;
-  }
-  
-  .card:hover .layer {
-    height: 100%;
-  }
-  
-  .layer h3 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-  }
-  
-  .layer p {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  
-  .layer a {
-    display: inline-block;
-    background: #07d2ff;
-    color: white;
-    padding: 10px 12px;
-    border-radius: 50%;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  .layer a:hover {
-    background: #049ff3;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .home-row2 {
-      grid-template-columns: 1fr;
-      gap: 30px;
-    }
-    
-    .main-para {
-      width: 90%;
-    }
-  }
+.layer p{
+  color: white;
+}
+
+.layer a{
+  color: rgb(12, 99, 239);
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+.home-container2 .card:hover img{
+  transform: scale(1.1);
+}
+
+.home-container2 .card:hover .layer{
+  height:100%;
+}

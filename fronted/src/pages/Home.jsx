@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../styles/home.css'
-import pic1 from '../images/pic1.png'
-import pic2 from '../images/pic2.png'
-import pic3 from '../images/pic3.png'
-import pic4 from '../images/pic4.png'
+import pic1 from '../images/pic1.jpg'
+import pic2 from '../images/pic2.jpg'
+import pic3 from '../images/pic3.jpg'
+import pic4 from '../images/pic4.jpg'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import {Link} from 'react-router-dom';
 

@@ -1,0 +1,52 @@
+.place-container{
+    background-color: rgb(228, 232, 232);
+}
+
+.place-container .row{
+    margin-left: 0;
+}
+
+.place-container1{
+    margin: 0;
+    padding: 0;    
+}
+
+.place-description-container .place-description{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+}
+
+.place-description-container .place-image img{
+    width: 100%;
+    object-fit: cover; 
+}
+
+.place-images {
+    display: flex; /* Make the images flex items */
+    padding: 10px;
+  }
+  
+  .place-images img {
+    width: 100%; /* Set a fixed width for all images */
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    margin-right: 10px; /* Add some space between images */
+  }
+
+ .place-text-back {
+    text-align: right;
+    position: relative;
+    bottom: 0;
+    right: 100px;
+    padding: 10px; /* Adding some padding for spacing */
+    
+  }
+
+  .back-text{
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+  }
