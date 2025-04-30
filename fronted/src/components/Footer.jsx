@@ -51,7 +51,7 @@ function Footer() {
                 
         </div>
         
-        <p>© 2023 | All Rights Reserved by IslandGuide Team.</p>
+        <p>© 2025 | All Rights Reserved by IslandGuide Team.</p>
     </div>
     
   )
