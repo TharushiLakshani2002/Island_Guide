@@ -98,7 +98,7 @@ const Contact= () => {
         <h3>Our Location:</h3>
         <p>Island Guide, Tropical Beach, Paradise Island</p>
         <h3>Contact Details:</h3>
-        <p>Email:islandguide123@.com</p>
+        <p>Email:islandguide123@gmail.com</p>
         <p>Phone: +123 456 7890</p>
       </div>
       </div>
