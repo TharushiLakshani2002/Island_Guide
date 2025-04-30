@@ -19,7 +19,7 @@ function Attractions() {
     Sri Lanka is a country rich in natural beauty, 
     cultural heritage, and diverse attractions.
      Here are some of the top attractions to explore
-      in Sri Lanka:
+      in Sri Lanka..
 </p>
 <div className="search-content">
     <input
