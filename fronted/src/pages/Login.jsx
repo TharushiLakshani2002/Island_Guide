@@ -54,7 +54,8 @@ return(
                         id="username"
                         aria-describedby="emailHelp"
                         placeholder="Enter Username or Email"
-                        onChange={(e) => {setUsername(e.target.value)}} />
+                        // onChange={(e) => {setUsername(e.target.value)}}
+                         />
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
