@@ -44,7 +44,7 @@ function Register() {
                         </h1>
                     <p>Explore the beauty of the islands with us.
                     Embrace the excitement of your upcoming island escape and immerse yourself in the
-                     unique experiences that await you on this enchanting island treasure
+                     unique experiences that await you on this enchanting island treasure..
                     </p>
                     </div>
                     </div>
