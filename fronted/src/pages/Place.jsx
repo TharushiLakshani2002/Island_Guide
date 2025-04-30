@@ -34,7 +34,7 @@ function Place() {
                 </div>
             </div>
             <div className=" place-text-back">
-                <Link to="/attractions" className='back-text'>Back to Explore</Link>
+                <Link to="/attractions" className='back-text'>Back to Explore..</Link>
             </div>
             <Footer/>
         </div>
