@@ -60,7 +60,7 @@ function Accomadations() {
                         <img src="https://th.bing.com/th/id/R.e000b86af535ca6cd49b54a913fe7d90?rik=kZHrvBC2vvypWg&pid=ImgRaw&r=0" alt="" className="image"/>                    
                         <div className="text-overlay">
                         <div className="text-overlay">
-                            <p>Family-Friendly Resorts</p>
+                            <p>Family--Friendly Resorts</p>
                         </div>
                 </div>
                 </div>
