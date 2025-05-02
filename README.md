@@ -1,4 +1,4 @@
-## Getting Started with Create React App-# 🏝 My Island Guide
+## Getting Started with Create React App- My Island Guide
 
 ## Project Setup: 
 Bootstrapped with Create React App for easy React project setup without manual configuration.
