@@ -3,14 +3,13 @@
 ## Project Setup: 
 Bootstrapped with Create React App for easy React project setup without manual configuration.
 
-**My Island Guide** is a modern web application designed to help users explore island destinations with ease. Built with a **React.js** frontend, **Spring Boot** backend, and **MongoDB** database, the app provides an engaging and responsive experience for discovering attractions, planning activities, and getting local insights.
+**My Island Guide** is a modern web application designed to help users explore island destinations with ease. Built with a **React.js** frontend the app provides an engaging and responsive experience for discovering attractions, planning activities, and getting local insights.
 
 ---
 
 ## 🚀 Tech Stack
 
 - **Frontend**: React.js, JavaScript, HTML, CSS
-
 
 ---
 
@@ -27,4 +26,5 @@ cd my-island-guide
 cd frontend
 npm install
 npm start
-### App runs on http://localhost:3000
+### App runs on
+http://localhost:3000
