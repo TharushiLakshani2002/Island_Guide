@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import logo from '../images/logo.png';
 import '../styles/navbar.css';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -55,7 +55,8 @@ function Navbar() {
           </button>
           <div className={`dropdown-menu ${dropdownOpen ? 'show' : ''}`} aria-labelledby="dropdownMenuButton">
             <a className="dropdown-item" href="#">My Profile</a>
-            <a className="dropdown-item" href="#"><Link to='/logout'>Logout</Link></a>
+            <a className="dropdown-item" href="#">
+              <Link to='/logout'>Logout</Link></a>
           </div>
         </div>
       </div>
