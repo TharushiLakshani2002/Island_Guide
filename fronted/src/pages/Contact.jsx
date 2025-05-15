@@ -28,10 +28,12 @@ const Contact= () => {
   };
 
   return (
+    <>
     <div className="contact-container">
-          <div className="row contact-container1">
+          <div className="contact-container1">
+               <Navbar/>
           <div className="row contact-container1 nav">
-        <Navbar/>
+     x
         </div>
         
         </div>
@@ -104,6 +106,7 @@ const Contact= () => {
       </div>
     </div>
   </div>
+  </>
   );
 };
 
