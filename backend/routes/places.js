@@ -1,4 +1,3 @@
-
 const {Place} = require('../models/place');
 const express = require('express');
 const router = express.Router();
