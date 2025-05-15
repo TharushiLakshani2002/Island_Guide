@@ -13,7 +13,7 @@ function Home() {
   return (
 <div className="home-container">
       
-    <div className='row home-container1'>
+    <div className='home-container1'>
             <Navbar/>
         <div className="row home-row2">
               <div className="col-5 description">
