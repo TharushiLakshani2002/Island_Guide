@@ -11,9 +11,10 @@ import '../styles/about.css'
 function About() {
   return (   
     <div className='about-container'>
-      <div className="row about-container1">
+      <div className=" about-container1">
+         <Navbar/>
         <div className="row about-container1 nav">
-        <Navbar/>
+       
         </div>
         <div className="row about-content-all">
       <div className=" col-5 slider ">
