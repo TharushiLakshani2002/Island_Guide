@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
+
+
+
 .navbar-container .row{
-    display: flex;
+
     justify-content: center;
     align-items: center;
+    margin: 0;
+   
 }
 
 .navbar-container .row1, .row2 {
@@ -13,6 +18,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  margin: 0;
+
+   
 }
 
 .row2 {
