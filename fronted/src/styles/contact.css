@@ -16,12 +16,12 @@ body {
   margin: 0;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
+   margin-left: 0;
+
 
 }
-
-
 
 
 .main-text {
@@ -30,7 +30,7 @@ body {
   color: rgb(8, 8, 8);
   background-image: linear-gradient(rgba(255, 255, 0, 0), rgb(255, 255, 255, 0.8), rgba(255, 255, 0, 0));
   font-family: 'Roboto Slab', serif;
-  width: 70%;
+  width: 40%;
 
   
 }
@@ -56,33 +56,32 @@ body {
 }
 .contact {
   margin: 0% 0%;
-  padding:15% 10%;
+  padding:5% 10%;
   box-shadow: 0 4px 8px 0 rgba(14, 0, 53, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5%;
   background-color:  rgba(127, 104, 10, 0.7);
-
   width: 100%;
-  max-width: 500px;
-  max-height: 1000px;
+  max-width: 400px;
+  max-height: 900px;
+  margin-left: 1100px;
+  margin-top: -600px;
+ 
 
-  margin-left: 1400px;
-  margin-top: -750px;
-  
  }
 .form-group {
-padding: 0px 0;
+padding: 1px ;
 }
 
 .form-group label {
 color: white;
 font-size: 1.2rem;
 display: block;
-margin-bottom: 5px;
+
 }
 
 .form-group input {
 width: 100%;
-padding: 10px;
+padding: 0px;
 border-radius: 5px;
 border: none;
 font-size: 1rem;
