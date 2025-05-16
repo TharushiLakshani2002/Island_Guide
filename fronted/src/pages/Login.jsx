@@ -29,8 +29,8 @@ function Login() {
       
     } catch (error) {
       console.error('Error submitting data:', error);
-    }
-  }
+      }
+  };
 
   return (
     <div className="login-main-container">
