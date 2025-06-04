@@ -76,8 +76,8 @@ function Attractions() {
     <input
     type="text"
     placeholder="Search for attractions..."
-    // value={input}
-    // onchange={handleInputChange}
+    value={input}
+    onchange={handleInputChange}
     />
     <button className="atttaction-button">Search</button>
     </div>
