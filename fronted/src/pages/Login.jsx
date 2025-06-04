@@ -59,29 +59,22 @@ function Login() {
                 className="form-control"
                 id="username"
                 placeholder="Enter Username or Email"
-                onChange={(e) => setUsername(e.target.value)}
-                value={username} // Bind input to state
-              />
+                 onChange={(e)=>{setUsername(e.target.value)}}/>
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
-              <input
-                type="password"
-                className="form-control"
-                id="password"
-                placeholder="Password"
-                onChange={(e) => setPassword(e.target.value)}
-                value={password} // Bind input to state
-              />
+              <input type="password" class="form-control" id="password" placeholder="Password"
+                    onChange={(e)=>{setPassword(e.target.value)}}/>
             </div>
             <div className="form-group account">
               <p>Don't have an account? <a href="/register">Sign Up</a></p>
             </div>
             <button type="submit" className="btn btn-primary">Login</button>
           </form>
+          </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 
