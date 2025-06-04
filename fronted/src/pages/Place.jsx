@@ -2,11 +2,25 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import '../styles/place.css';
 import Footer from "../components/Footer";
-//import { useState, useEffect } from "react";
-// import axios from "axios";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import { useParams, Link } from "react-router-dom"; 
 
 function Place() {
+     const {placeID } = useParams();
+    const [places, setPlace] = useState([]);
+
+    useEffect(() => {
+        console.log("hello");
+        axios.get(`http://localhost:3001/api/v1/places/${placeID}`)
+          .then(response => setPlace(response.data))
+          .catch(error => console.log(error));
+      }, [placeID]);
+
+    if (!places) {
+        // Loading state
+        return <div>Loading...</div>;
+    }
     return (
         <div className='place-container'>
             <div className='place-container1'>
