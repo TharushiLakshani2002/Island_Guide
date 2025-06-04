@@ -100,7 +100,7 @@ function Register() {
               </div>
               <div className="form-group account">
                 <p>
-                  Already have an account? <a href="">Sign in</a>
+                  Already have an account? <a href="/login">Sign in</a>
                 </p>
               </div>
               <button type="submit" className="btn btn-primary" onClick={submit}>
