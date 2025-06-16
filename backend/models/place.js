@@ -12,6 +12,4 @@ const placeSchema = mongoose.Schema({
         image4:String,
     }
 })
-
-
 exports.Place = mongoose.model('Place', placeSchema);
