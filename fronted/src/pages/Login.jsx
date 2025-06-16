@@ -25,7 +25,7 @@ function Login() {
 
       
       console.log(response.data);
-      navigate('/');
+      navigate('/home');
       
     } catch (error) {
       console.error('Error submitting data:', error);
