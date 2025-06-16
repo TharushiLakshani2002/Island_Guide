@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/attractions.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import ReactPaginate from "react-paginate";
 
@@ -12,11 +12,12 @@ function Attractions() {
   const [input, setInput] = useState('');
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 
+  const navigate = useNavigate();
+
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
 
-  
   useEffect(() => {
     setPageNumber(0);
   }, [input]);
@@ -59,6 +60,11 @@ function Attractions() {
       .catch((err) => console.log(err));
   }, [input]);
 
+  const handleSearchClick = () => {
+    // Redirect to /place with search query param
+    navigate(`/place?search=${encodeURIComponent(input)}`);
+  };
+
   return (
     <div className="attractions-container">
       <div className="attractions-container1">
@@ -72,15 +78,16 @@ function Attractions() {
               in Sri Lanka...
             </p>
             <div className="search-content">
-  <input
-    type="text"
-    placeholder="Search for attractions..."
-    value={input}
-    onChange={handleInputChange}
-  />
-  <button className="atttaction-button" onClick={() => setInput(input)}>Search</button>
-</div>
-
+              <input
+                type="text"
+                placeholder="Search for attractions..."
+                value={input}
+                onChange={handleInputChange}
+              />
+              <button className="atttaction-button" onClick={handleSearchClick}>
+                Search
+              </button>
+            </div>
           </div>
         </div>
       </div>
