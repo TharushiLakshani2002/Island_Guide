@@ -27,8 +27,8 @@ function App() {
       <Router>
         <Routes>
           {/* Unprotected Routes */}
-          <Route path="/register" element={<Register/>}/>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/" element={<Register/>} />
           <Route path="/login" element={<Login/>}/>
           <Route path="/contact" element={<Contact/>} />
           <Route path="/about" element={<About/>} />
