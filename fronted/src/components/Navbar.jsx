@@ -38,7 +38,7 @@ function Navbar() {
                <img src={logo} alt="" />
             </div>
             <div className="col-6" id='links'>
-                <a href="#"><Link to='/'>Home</Link></a>
+                <a href="#"><Link to='/home'>Home</Link></a>
                 <a href="#"><Link to='/plan'>Plan Your Trip</Link></a>
                 <a href="#"><Link to='/about'>About</Link></a>
                 <a href="#"><Link to='/contact'>Contact Us</Link></a>
