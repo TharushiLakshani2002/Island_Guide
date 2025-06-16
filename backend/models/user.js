@@ -1,31 +1,19 @@
-
 const mongoose = require('mongoose');
 
-const userSchema =new mongoose.Schema({
-    nameOrEmail:{
-        type:String,
-        required: true,
+const userSchema = mongoose.Schema({
+    nameOrEmail: {
+        type: String,
+        required: [true, 'Username or Email is required'],
+        unique: true,
+        trim: true,
     },
     passwordHash: {
         type: String,
-        required: true,
+        required: [true, 'Password is required']
     },
-    cpasswordHash: {
-        type: String,
-        required: true,
-    }
-    
-    
-})
-
-userSchema.virtual('id').get(function () {
-    return this._id.toHexString();
+}, { 
+    timestamps: true // adds createdAt and updatedAt fields automatically
 });
 
-userSchema.set('toJSON', {
-    virtuals: true,
-});
-
+// Export the model
 exports.User = mongoose.model('User', userSchema);
-exports.userSchema = userSchema;
-
